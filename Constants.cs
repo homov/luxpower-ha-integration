@@ -55,7 +55,7 @@ namespace LxpModbus
         public const int MAX_PACKET_SIZE = 1024;  // Maximum reasonable packet size in bytes
         public const int PACKET_RECOVERY_TIMEOUT = 2;  // Timeout for packet recovery operations
 
-        public const int RESPONSE_OVERHEAD = 37;  // minimum resposne length received from inverter (technical information)
+        public const int RESPONSE_OVERHEAD = 37;  // minimum response length received from inverter (technical information)
         public const int WRITE_RESPONSE_LENGTH = 76;  // Based on documentation for a single write ack
     }
 }
